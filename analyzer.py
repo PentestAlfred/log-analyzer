@@ -1,19 +1,3 @@
-"""
-===========================================
-  Log File Analyzer / Intrusion Detector
-  VERSION 2.1 — CLI Professional Edition
-  Built for eGA Tanzania Cybersecurity Portfolio
-===========================================
-
-Features:
-  - Auto log type detection
-  - IP extraction + anomaly detection
-  - Suspicious activity flagging
-  - Compromised IP correlation
-  - CLI file input (-f / --file)
-  - Interactive fallback mode
-"""
-
 import re
 import os
 import argparse
