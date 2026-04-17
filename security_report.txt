@@ -1,0 +1,106 @@
+
+============================================================
+ LOG FILE ANALYZER - SECURITY REPORT
+ File     : ssh.log
+ Log Type : Generic / Unknown Log
+ Generated: 2026-04-17 08:03:15
+============================================================
+
+[1] OVERVIEW
+ Total lines            : 7143
+ Suspicious lines       : 5069
+ Unique IPs             : 36
+ Suspicious IPs         : 29
+ Compromised IPs        : 28
+
+[2] TOP OFFENDING IPS
+ 192.168.202.141    2365 events ⚠
+ 192.168.202.110    613 events ⚠
+ 192.168.204.45     574 events ⚠
+ 192.168.202.140    433 events ⚠
+ 192.168.202.68     161 events ⚠
+ 192.168.202.138    142 events ⚠
+ 192.168.203.45     129 events ⚠
+ 192.168.202.109    113 events ⚠
+ 192.168.202.79     90 events ⚠
+ 192.168.202.112    90 events ⚠
+
+
+[3] SUSPICIOUS IPS (>= 3)
+ ⚠ 192.168.202.68 -> 161 events
+ ⚠ 192.168.202.79 -> 90 events
+ ⚠ 192.168.202.109 -> 113 events
+ ⚠ 192.168.204.45 -> 574 events
+ ⚠ 192.168.203.45 -> 129 events
+ ⚠ 192.168.202.110 -> 613 events
+ ⚠ 192.168.202.76 -> 6 events
+ ⚠ 192.168.203.61 -> 6 events
+ ⚠ 192.168.202.103 -> 13 events
+ ⚠ 192.168.202.87 -> 23 events
+ ⚠ 192.168.202.100 -> 13 events
+ ⚠ 192.168.202.112 -> 90 events
+ ⚠ 192.168.202.108 -> 73 events
+ ⚠ 192.168.202.81 -> 12 events
+ ⚠ 192.168.202.80 -> 17 events
+ ⚠ 192.168.202.95 -> 15 events
+ ⚠ 192.168.202.119 -> 11 events
+ ⚠ 192.168.202.90 -> 67 events
+ ⚠ 192.168.202.125 -> 6 events
+ ⚠ 192.168.202.4 -> 6 events
+ ⚠ 192.168.25.101 -> 6 events
+ ⚠ 192.168.202.138 -> 142 events
+ ⚠ 192.168.202.140 -> 433 events
+ ⚠ 192.168.202.98 -> 6 events
+ ⚠ 192.168.202.144 -> 8 events
+ ⚠ 192.168.202.136 -> 23 events
+ ⚠ 192.168.202.69 -> 10 events
+ ⚠ 192.168.202.150 -> 10 events
+ ⚠ 192.168.202.141 -> 2365 events
+
+[4] COMPROMISED IPS
+ ALERT: 192.168.202.68 had both failure + success
+ ALERT: 192.168.202.79 had both failure + success
+ ALERT: 192.168.202.109 had both failure + success
+ ALERT: 192.168.204.45 had both failure + success
+ ALERT: 192.168.203.45 had both failure + success
+ ALERT: 192.168.202.110 had both failure + success
+ ALERT: 192.168.202.76 had both failure + success
+ ALERT: 192.168.203.61 had both failure + success
+ ALERT: 192.168.202.103 had both failure + success
+ ALERT: 192.168.202.87 had both failure + success
+ ALERT: 192.168.202.100 had both failure + success
+ ALERT: 192.168.202.112 had both failure + success
+ ALERT: 192.168.202.108 had both failure + success
+ ALERT: 192.168.202.81 had both failure + success
+ ALERT: 192.168.202.80 had both failure + success
+ ALERT: 192.168.202.95 had both failure + success
+ ALERT: 192.168.202.119 had both failure + success
+ ALERT: 192.168.202.90 had both failure + success
+ ALERT: 192.168.202.125 had both failure + success
+ ALERT: 192.168.202.4 had both failure + success
+ ALERT: 192.168.202.138 had both failure + success
+ ALERT: 192.168.202.140 had both failure + success
+ ALERT: 192.168.202.98 had both failure + success
+ ALERT: 192.168.202.144 had both failure + success
+ ALERT: 192.168.202.136 had both failure + success
+ ALERT: 192.168.202.69 had both failure + success
+ ALERT: 192.168.202.150 had both failure + success
+ ALERT: 192.168.202.141 had both failure + success
+
+[5] SAMPLE LOGS
+ 1331901011.840000	CTHcOo3BARDOPDjYue	192.168.202.68	53633	192.168.28.254	22	failure	INBOUND	SSH-2.0-OpenSSH_5.0	SSH-1.99
+ 1331901030.210000	CBHpSz2Zi3rdKbAvwd	192.168.202.68	35820	192.168.23.254	22	failure	INBOUND	SSH-2.0-OpenSSH_5.0	SSH-1.99
+ 1331901032.030000	C2h6wz2S5MWTiAk6Hb	192.168.202.68	36254	192.168.26.254	22	failure	INBOUND	SSH-2.0-OpenSSH_5.0	SSH-1.99
+ 1331901034.340000	CeY76r1JXPbjJS8yKb	192.168.202.68	37764	192.168.27.102	22	failure	INBOUND	SSH-2.0-OpenSSH_5.0	SSH-2.0-
+ 1331901041.920000	CPJHML3uGn4IV2MGWi	192.168.202.68	40244	192.168.27.101	22	failure	INBOUND	SSH-2.0-OpenSSH_5.0	SSH-2.0-
+
+
+[6] RECOMMENDATIONS
+ - Block repeated malicious IPs
+ - Investigate compromised hosts
+ - Enable real-time monitoring
+ - Patch vulnerable services
+
+============================================================
+ END REPORT
+============================================================
