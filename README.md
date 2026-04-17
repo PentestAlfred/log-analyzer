@@ -28,6 +28,6 @@ See /screenshots folder for:
 - Report output  
 ## **Purpose**  
 This project simulates a Security Operations Center (SOC) log analysis tool for cybersecurity training and portfolio demonstration.  
-## **📚 References**  
+## **References**  
 - Secrepo Log Dataset Repository  
    
